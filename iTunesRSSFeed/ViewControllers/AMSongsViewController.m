@@ -29,6 +29,11 @@
     [super viewDidLoad];
     
     self.navigationItem.title = TITLE;
+    UIBarButtonItem *refreshButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh
+                                                                                   target:self
+                                                                                   action:@selector(refreshView)];
+    self.navigationItem.rightBarButtonItem = refreshButton;
+    
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(refreshView)
                                                  name:FINISH_DOWNLOAD_XML

@@ -19,3 +19,12 @@ DerivedData
 
 #CocoaPods
 Pods
+~$*
+*.log
+*.sqlsuo
+*.orig
+*.sqlsuo
+.DS_Store*
+xcuserdata/
+project.xcworkspace/
+build/
