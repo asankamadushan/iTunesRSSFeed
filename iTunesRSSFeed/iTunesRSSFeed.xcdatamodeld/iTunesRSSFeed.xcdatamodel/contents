@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3396" systemVersion="12F37" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="iOS 6.0">
-    <entity name="Songs" representedClassName="" syncable="YES">
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="13C64" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="iOS 6.0">
+    <entity name="Songs" representedClassName="Songs" syncable="YES">
         <attribute name="albumImageLarge" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="albumImageSmall" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="webLink" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Songs" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Songs" positionX="0" positionY="0" width="128" height="105"/>
     </elements>
 </model>
