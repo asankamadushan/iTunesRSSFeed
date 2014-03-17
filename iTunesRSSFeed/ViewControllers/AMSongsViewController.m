@@ -43,7 +43,7 @@
     _dataConnection.dataStore = self.dataStore;
     
     _backGroundQueue = [[NSOperationQueue alloc] init];
-    [_backGroundQueue setName:@"con.itunesRSSFeed.imageDownloadQuese"];
+    [_backGroundQueue setName:@"com.itunesRSSFeed.imageDownloadQuese"];
     [self refreshView];
 }
 
