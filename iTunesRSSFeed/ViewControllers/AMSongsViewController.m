@@ -118,8 +118,16 @@
                 
                 [[NSOperationQueue mainQueue] addOperationWithBlock:^{
                     UIImage *image = [UIImage imageWithData:imageData];
-                    [_imageCash setObject:image forKey:song.title];
-                    [tableView cellForRowAtIndexPath:indexPath].imageView.image = image;
+                    if (image)
+                    {
+                        [_imageCash setObject:image forKey:song.title];
+                        [tableView cellForRowAtIndexPath:indexPath].imageView.image = image;
+                    }
+                    else
+                    {
+                        NSLog(@"image is nil");
+                    }
+                   
                 }];
             }];
         }
